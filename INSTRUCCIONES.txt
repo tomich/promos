@@ -1,0 +1,34 @@
+Instrucciones de Instalación:
+
+1-COPIAR ARCHIVOS
+Copiar los archivos dentro de la carpeta web de nuestro server(www o htdocs o http_docs, etc).
+No es necesario copiar la carpeta "base_de_datos"
+
+2-IMPORTAR BASE DE DATOS
+Dentro de la carpeta "base_de_datos".
+
+base1vacia.sql= La base de datos totalmente vacía. Es solamente la estructura. (Recomendado para 
+instalaciones finales o instalaciones en serio)
+
+
+3-CONFIGURACION
+Abrir el archivo config.php con algun editor de texto. Colocar los datos solicitados.
+El ejemplo incluido es para un servidor donde la base de datos(el servidor mysql) se 
+encuentra en la misma pagina donde estamos colocando los archivos PHP. El usuario de 
+acceso a la base de datos es root y la clave en este ejemplo es 123456. En este ejemplo, 
+la base de datos se llama "base1". 
+CAMBIAR ESTOS DATOS ACORDE A LA CONFIGURACION DE SU SERVIDOR
+
+4-(OPCIONAL) PERSONALIZACION:
+
+Es posible colocar informacion sobre las promociones dentro del arhivo Info.php.
+Algun dia tal vez(no confirmado aún) se podrá agregar info mediante una interfaz web.
+
+5-FIN
+
+Ya debería estar en funcionamiento. Es posible que la primera vez que entremos a la página recibmamos 
+un error de My SQL. De suceder esto, refrescando la página(F5) debería de solucionarse y no volver a 
+repetirse nunca mas. Se trata de un error en la PRIMERA conexion a la base de datos cuando el sistema 
+aun no sabe si hay un servidor mysql corriendo. Solo debería pasar la primera vez que inicia el servidor.
+
+Contacto tecnico: tomas.caram@gmail.com
